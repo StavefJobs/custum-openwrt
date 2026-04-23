@@ -29,7 +29,7 @@ src-git helloworld https://github.com/fw876/helloworld.git
 
 # sing-box: 代理核心程序（支持多种协议）
 # 仓库地址: https://github.com/SagerNet/sing-box
-src-git sing-box https://github.com/SagerNet/sing-box.git
+# src-git sing-box https://github.com/SagerNet/sing-box.git
 
 # OpenWrt-nikki: 基于 Mihomo/Sing-Box 的透明代理插件
 # 仓库地址: https://github.com/nikkinikki-org/OpenWrt-nikki
