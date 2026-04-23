@@ -1,0 +1,36 @@
+# ============================================================
+# OpenWrt Feeds 配置文件
+# 此文件定义了编译时需要获取的软件包源
+# ============================================================
+
+# --------------------------------------------------------
+# OpenWrt 官方 Feeds（必须保留）
+# --------------------------------------------------------
+
+# 基础软件包
+src-git packages https://git.openwrt.org/feed/packages.git
+
+# LuCI Web界面
+src-git luci https://git.openwrt.org/project/luci.git
+
+# 路由相关软件
+src-git routing https://git.openwrt.org/feed/routing.git
+
+# 电话相关软件
+src-git telephony https://git.openwrt.org/feed/telephony.git
+
+# --------------------------------------------------------
+# 自定义 Feeds（根据需求添加）
+# --------------------------------------------------------
+
+# helloworld: 科学上网插件（PassWall、Hello World等）
+# 仓库地址: https://github.com/fw876/helloworld
+src-git helloworld https://github.com/fw876/helloworld
+
+# sing-box: 代理核心程序（支持多种协议）
+# 仓库地址: https://github.com/SagerNet/sing-box
+src-git sing-box https://github.com/SagerNet/sing-box.git
+
+# OpenWrt-nikki: 基于 Mihomo/Sing-Box 的透明代理插件
+# 仓库地址: https://github.com/nikkinikki-org/OpenWrt-nikki
+src-git OpenWrt-nikki https://github.com/nikkinikki-org/OpenWrt-nikki.git
