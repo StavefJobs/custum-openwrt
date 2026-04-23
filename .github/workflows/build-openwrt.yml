@@ -245,12 +245,12 @@ jobs:
         with:
           # 生成的固件文件路径
           files: |
-            bin/targets/**/*.img.gz
-            bin/targets/**/*.vmdk.gz
-            bin/targets/**/*.vdi.gz
-            bin/targets/**/*.bin
-            bin/targets/**/*.sysupgrade.bin
-            bin/targets/**/*.tar.gz
+            /home/runner/openwrt/bin/targets/**/*.img.gz
+            /home/runner/openwrt/bin/targets/**/*.vmdk.gz
+            /home/runner/openwrt/bin/targets/**/*.vdi.gz
+            /home/runner/openwrt/bin/targets/**/*.bin
+            /home/runner/openwrt/bin/targets/**/*.sysupgrade.bin
+            /home/runner/openwrt/bin/targets/**/*.tar.gz
           # 发布说明
           body: |
             ## OpenWrt ${{ env.OPENWRT_VERSION }} Build
