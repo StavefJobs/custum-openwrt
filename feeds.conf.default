@@ -19,13 +19,15 @@ src-git routing https://git.openwrt.org/feed/routing.git
 # 电话相关软件
 src-git telephony https://git.openwrt.org/feed/telephony.git
 
+# video soft
+src-git video https://github.com/openwrt/video.git
 # --------------------------------------------------------
 # 自定义 Feeds（根据需求添加）
 # --------------------------------------------------------
 
 # helloworld: 科学上网插件（PassWall、Hello World等）
 # 仓库地址: https://github.com/fw876/helloworld
-src-git helloworld https://github.com/fw876/helloworld.git
+#src-git helloworld https://github.com/fw876/helloworld.git
 
 # sing-box: 代理核心程序（支持多种协议）
 # 仓库地址: https://github.com/SagerNet/sing-box
@@ -33,4 +35,4 @@ src-git helloworld https://github.com/fw876/helloworld.git
 
 # OpenWrt-nikki: 基于 Mihomo/Sing-Box 的透明代理插件
 # 仓库地址: https://github.com/nikkinikki-org/OpenWrt-nikki
-src-git OpenWrt-nikki https://github.com/nikkinikki-org/OpenWrt-nikki.git
+#src-git OpenWrt-nikki https://github.com/nikkinikki-org/OpenWrt-nikki.git
