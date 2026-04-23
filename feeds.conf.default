@@ -25,7 +25,7 @@ src-git telephony https://git.openwrt.org/feed/telephony.git
 
 # helloworld: 科学上网插件（PassWall、Hello World等）
 # 仓库地址: https://github.com/fw876/helloworld
-src-git helloworld https://github.com/fw876/helloworld
+src-git helloworld https://github.com/fw876/helloworld.git
 
 # sing-box: 代理核心程序（支持多种协议）
 # 仓库地址: https://github.com/SagerNet/sing-box
