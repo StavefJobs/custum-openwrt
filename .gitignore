@@ -53,3 +53,9 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+# AI Session data
+.claude/
+.opencode/
+sessions/
+.cache/
