@@ -240,7 +240,7 @@ jobs:
       # 14. 上传到GitHub Releases
       # --------------------------------------------------------
       - name: Upload to Release
-        uses: softprops/action-gh-release@v1
+        uses: softprops/action-gh-release@v2
         if: always()
         with:
           # 生成的固件文件路径
@@ -248,6 +248,9 @@ jobs:
             bin/targets/**/*.img.gz
             bin/targets/**/*.vmdk.gz
             bin/targets/**/*.vdi.gz
+            bin/targets/**/*.bin
+            bin/targets/**/*.sysupgrade.bin
+            bin/targets/**/*.tar.gz
           # 发布说明
           body: |
             ## OpenWrt ${{ env.OPENWRT_VERSION }} Build
