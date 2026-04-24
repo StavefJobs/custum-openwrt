@@ -30,16 +30,12 @@ src-git video https://github.com/openwrt/video.git
 src-git helloworld https://github.com/fw876/helloworld.git
 
 # nikki 下一个版本
-#src-git nikki https://github.com/nikkinikki-org/OpenWrt-nikki.git;main
+#src-git nikki https://github.com/nikkinikki-org/OpenWrtnikki.git;main
 #
 # singbox 是下一个版本
 # 
 #
 #
 # sing-box: 代理核心程序（支持多种协议）
-# 仓库地址: https://github.com/SagerNet/sing-box
 # sing-box: 代理核心程序（已注释）
-
-# OpenWrt-nikki: 基于 Mihomo/Sing-Box 的透明代理插件
-# 仓库地址: https://github.com/nikkinikki-org/OpenWrt-nikki
-#src-git OpenWrt-nikki https://github.com/nikkinikki-org/OpenWrt-nikki.git
+# nikki 下一个版本
